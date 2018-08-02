@@ -1,5 +1,3 @@
-#!/bin/bash
-#
 # Function that takes some text and echoes it out centered on the screen,
 # surrounded by filler characters. Filler characters default to '-', but
 # can be specified as the second argument.
