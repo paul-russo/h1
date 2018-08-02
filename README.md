@@ -13,22 +13,11 @@ Install using [zplug](https://github.com/zplug/zplug) or some other plugin manag
 - The second argument is optional, and can be any character – or sequence of characters – that you want repeated before and after your header text as padding. Defaults to `-`.
 
 ## Examples
-### Input 1
 ```
-h1 "howdy partner"
-```
-
-### Output 1
-```
+$ h1 "howdy partner"
 ------------------------------------------ HOWDY PARTNER ------------------------------------------
 ```
-
-### Input 2
 ```
-h1 "welcome" "+:"
-```
-
-### Output 2
-```
+$ h1 "welcome" "+:"
 +:+:+:+:+:+:+:+:+:+:+:+:+:+:+:+:+:+:+:+:+:+:+: WELCOME +:+:+:+:+:+:+:+:+:+:+:+:+:+:+:+:+:+:+:+:+:+:
 ```
