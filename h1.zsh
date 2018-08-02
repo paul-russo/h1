@@ -9,11 +9,11 @@ h1() {
     cols="${COLUMNS:-80}"
   fi
 
-	local text="$1"
+  local text="$1"
   local dash="$2"
 
-	# override the dash value if it's unset.
-	: ${dash:='-'}
+  # override the dash value if it's unset.
+  : ${dash:='-'}
 
   # If there's a value for "text"...
   if [[ -n "$text" ]]; then
@@ -21,7 +21,7 @@ h1() {
 
     # Get the length of the text, the needed number of padding characters, and then the
     # needed number of characters for the left padding.
-		local length_text=${#text}
+    local length_text=${#text}
     local padding=$((cols - (length_text + 2)))
     local length_left=$((padding / 2))
 
@@ -34,7 +34,7 @@ h1() {
     line="$line $(echo $text | tr '[a-z]' '[A-Z]') "
 
     # Pad out the rest of the line with filler characters.
-   	while (( ${#line} < cols )); do
+    while (( ${#line} < cols )); do
       line="$line$dash"
     done
 
