@@ -13,7 +13,7 @@ h1() {
   local dash="$2"
 
   # override the dash value if it's unset.
-  : ${dash:='-'}
+  : ${dash:='–'}
 
   # If there's a value for "text"...
   if [[ -n "$text" ]]; then

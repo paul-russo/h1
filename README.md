@@ -10,12 +10,12 @@ Install using [zplug](https://github.com/zplug/zplug) or some other plugin manag
 `h1 header_text [padding_characters]`
 
 - The first argument can be any string that you want uppercased and centered on the screen.
-- The second argument is optional, and can be any character – or sequence of characters – that you want repeated before and after your header text as padding. Defaults to `-`.
+- The second argument is optional, and can be any character – or sequence of characters – that you want repeated before and after your header text as padding. Defaults to `–`.
 
 ## Examples
 ```
 $ h1 "howdy partner"
------------------------------------------- HOWDY PARTNER ------------------------------------------
+–––––––––––––––––––––––––––––––––––––––––– HOWDY PARTNER ––––––––––––––––––––––––––––––––––––––––––
 ```
 ```
 $ h1 "welcome" "+:"
